@@ -1,0 +1,7 @@
+[RESOURCES]
+presmakinesi
+[VARIABLES]
+yeni_is.NumberOut
+presleme.NumberIn
+Dispose 1.NumberOut
+presleme.NumberOut

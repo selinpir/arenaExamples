@@ -1,0 +1,50 @@
+
+                                      ARENA Simulation Results
+                                                selin
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 5/15/2025
+Analyst: selin                                                       Model revision date: 5/15/2025
+
+Replication ended at time      : 6000.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+job.VATime                                  26.098     (Insuf)    .03402     158.75        186    
+job.NVATime                                 .00000     (Insuf)    .00000     .00000        186    
+job.WaitTime                                96.834     (Insuf)    .00000     384.57        186    
+job.TranTime                                .00000     (Insuf)    .00000     .00000        186    
+job.OtherTime                               .00000     (Insuf)    .00000     .00000        186    
+job.TotalTime                               122.93     (Insuf)    .46576     411.27        186    
+presleme.Queue.WaitingTime                  97.373     (Insuf)    .00000     384.57        187    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+job.WIP                                     3.9695     (Corr)     .00000     14.000     8.0000    
+presmakinesi.NumberBusy                     .81148     (Insuf)    .00000     1.0000     1.0000    
+presmakinesi.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+presmakinesi.Utilization                    .81148     (Insuf)    .00000     1.0000     1.0000    
+presleme.Queue.NumberInQueue                3.1580     (Insuf)    .00000     13.000     7.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+job.NumberIn                                194.00    
+job.NumberOut                               186.00    
+presmakinesi.NumberSeized                   187.00    
+presmakinesi.ScheduledUtilization           .81148    
+System.NumberOut                            186.00    
+
+
+Simulation run time: 0.02 minutes.
+Simulation run complete.

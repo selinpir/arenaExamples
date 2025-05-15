@@ -1,0 +1,10 @@
+[RESOURCES]
+guvenlik_elemani
+[VARIABLES]
+temiz.NumberOut
+giris_yasak.NumberOut
+yolcu_gelisleri.NumberOut
+guvenil_kontrol_sureci.NumberIn
+guvenil_kontrol_sureci.NumberOut
+guvenilkten_gecti_mi.NumberOut True
+guvenilkten_gecti_mi.NumberOut False

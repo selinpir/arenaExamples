@@ -1,0 +1,50 @@
+
+                                      ARENA Simulation Results
+                                                selin
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 5/15/2025
+Analyst: selin                                                       Model revision date: 5/15/2025
+
+Replication ended at time      : 60.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+yolcu.VATime                                1.8018     (Insuf)    .90529     2.6126         30    
+yolcu.NVATime                               .00000     (Insuf)    .00000     .00000         30    
+yolcu.WaitTime                              3.4118     (Insuf)    .00000     10.409         30    
+yolcu.TranTime                              .00000     (Insuf)    .00000     .00000         30    
+yolcu.OtherTime                             .00000     (Insuf)    .00000     .00000         30    
+yolcu.TotalTime                             5.2137     (Insuf)    1.5295     11.683         30    
+guvenil_kontrol_sureci.Queue.WaitingTime    3.4118     (Insuf)    .00000     10.409         30    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+yolcu.WIP                                   2.6068     (Insuf)    .00000     7.0000     .00000    
+guvenlik_elemani.NumberBusy                 .90093     (Insuf)    .00000     1.0000     .00000    
+guvenlik_elemani.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+guvenlik_elemani.Utilization                .90093     (Insuf)    .00000     1.0000     .00000    
+guvenil_kontrol_sureci.Queue.NumberInQueue  1.7059     (Insuf)    .00000     6.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+yolcu.NumberIn                              30.000    
+yolcu.NumberOut                             30.000    
+guvenlik_elemani.NumberSeized               30.000    
+guvenlik_elemani.ScheduledUtilization       .90093    
+System.NumberOut                            30.000    
+
+
+Simulation run time: 0.02 minutes.
+Simulation run complete.
