@@ -1,0 +1,58 @@
+
+                                      ARENA Simulation Results
+                                                selin
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 5/15/2025
+Analyst: selin                                                       Model revision date: 5/15/2025
+
+Replication ended at time      : 100000.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+akis_zamani                                 24.852     (Corr)     .00000     926.57      39660    
+isler.VATime                                7.7328     .03136     5.0003     26.143      19830    
+isler.NVATime                               .00000     .00000     .00000     .00000      19830    
+isler.WaitTime                              41.792     (Corr)     .00000     909.79      19830    
+isler.TranTime                              .00000     .00000     .00000     .00000      19830    
+isler.OtherTime                             .00000     .00000     .00000     .00000      19830    
+isler.TotalTime                             49.525     (Corr)     5.0003     926.57      19830    
+boyama.Queue.WaitingTime                    .13753     .00708     .00000     3.8143      19830    
+montaj.Queue.WaitingTime                    35.283     10.929     .00000     262.98      23417    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+isler.WIP                                   9.8275     (Corr)     .00000     68.000     19.000    
+montaj_makinesi.NumberBusy                  .93869     .01048     .00000     1.0000     1.0000    
+montaj_makinesi.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+montaj_makinesi.Utilization                 .93869     .01048     .00000     1.0000     1.0000    
+boyama_makinesi.NumberBusy                  .59490     .00698     .00000     1.0000     .00000    
+boyama_makinesi.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+boyama_makinesi.Utilization                 .59490     .00698     .00000     1.0000     .00000    
+boyama.Queue.NumberInQueue                  .02727     .00133     .00000     2.0000     .00000    
+montaj.Queue.NumberInQueue                  8.2667     (Corr)     .00000     66.000     18.000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+isler.NumberIn                              19849.    
+isler.NumberOut                             19830.    
+montaj_makinesi.NumberSeized                23417.    
+montaj_makinesi.ScheduledUtilization        .93869    
+boyama_makinesi.NumberSeized                19830.    
+boyama_makinesi.ScheduledUtilization        .59490    
+System.NumberOut                            19830.    
+
+
+Simulation run time: 0.70 minutes.
+Simulation run complete.

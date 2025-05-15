@@ -1,0 +1,13 @@
+[RESOURCES]
+montaj_makinesi
+boyama_makinesi
+[VARIABLES]
+boyama.NumberOut
+boyama.NumberIn
+cikis.NumberOut
+kalite_kontrol.NumberOut True
+is_gelisleri.NumberOut
+montaj.NumberOut
+montaj.NumberIn
+Variable 1
+kalite_kontrol.NumberOut False
