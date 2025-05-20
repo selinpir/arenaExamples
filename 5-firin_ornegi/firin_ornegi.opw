@@ -1,0 +1,23 @@
+[RESOURCES]
+firinlama_mak
+mayalama_mak
+susamlama_mak
+yogurma_mak
+yuvarlama_mak
+kabartma_mak
+[VARIABLES]
+Process 5.NumberOut
+Process 4.NumberOut
+Process 2.NumberOut
+Process 2.NumberIn
+Process 3.NumberIn
+Process 6.NumberIn
+Process 1.NumberIn
+Process 6.NumberOut
+Dispose 4.NumberOut
+Process 5.NumberIn
+Process 4.NumberIn
+Process 3.NumberOut
+simit_gelisi.NumberOut
+ekmek_gelisi.NumberOut
+Process 1.NumberOut

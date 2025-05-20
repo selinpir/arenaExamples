@@ -1,0 +1,23 @@
+[RESOURCES]
+a_hazirlik
+geridonusum_makinesi
+b_hazirlik
+muhur_makinesi
+[VARIABLES]
+muhurleme asamasi.NumberOut
+muhurleme asamasi.NumberIn
+direkt gidenler.NumberOut
+hurdaya ayrilanlar.NumberOut
+A gelis.NumberOut
+geri gonderildi mi.NumberOut True
+B gelis.NumberOut
+B hazirlik.NumberOut
+geri gonderildi mi.NumberOut False
+geri gonderilenler.NumberOut
+A hazirlik.NumberOut
+testten gecti mi.NumberOut True
+testten gecti mi.NumberOut False
+A hazirlik.NumberIn
+geri donusum.NumberOut
+geri donusum.NumberIn
+B hazirlik.NumberIn

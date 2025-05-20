@@ -1,0 +1,83 @@
+
+                                      ARENA Simulation Results
+                                                selin
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 5/20/2025
+Analyst: selin                                                       Model revision date: 5/20/2025
+
+Replication ended at time      : 1920.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+tally_geri_gonderilenler_zamani             707.63     (Insuf)    100.09     1297.1         26    
+tally_hurdaya_ayrilanlar                    569.20     (Insuf)    108.47     1248.7         11    
+tally_direkt_gidenler_zamani                31.929     (Corr)     4.3980     119.46        618    
+a_parcasi.VATime                            9.5055     1.4374     2.4071     171.02        402    
+a_parcasi.NVATime                           .00000     .00000     .00000     .00000        402    
+a_parcasi.WaitTime                          50.490     17.859     .00000     1243.4        402    
+a_parcasi.TranTime                          .00000     .00000     .00000     .00000        402    
+a_parcasi.OtherTime                         .00000     .00000     .00000     .00000        402    
+a_parcasi.TotalTime                         59.996     18.606     4.3980     1276.9        402    
+b_parcasi.VATime                            11.268     (Insuf)    4.4374     140.52        253    
+b_parcasi.NVATime                           .00000     (Insuf)    .00000     .00000        253    
+b_parcasi.WaitTime                          68.864     (Insuf)    .00000     1259.1        253    
+b_parcasi.TranTime                          .00000     (Insuf)    .00000     .00000        253    
+b_parcasi.OtherTime                         .00000     (Insuf)    .00000     .00000        253    
+b_parcasi.TotalTime                         80.133     (Insuf)    6.6418     1297.1        253    
+A hazirlik.Queue.WaitingTime                14.015     (Corr)     .00000     44.605        428    
+B hazirlik.Queue.WaitingTime                31.045     (Insuf)    .00000     100.72        264    
+geri donusum.Queue.WaitingTime              596.58     (Insuf)    .00000     1270.1         38    
+muhurleme asamasi.Queue.WaitingTime         4.3281     (Corr)     .00000     14.255        691    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+a_parcasi.WIP                               23.071     (Corr)     .00000     34.000     28.000    
+b_parcasi.WIP                               14.911     (Insuf)    .00000     28.000     11.000    
+a_hazirlik.NumberBusy                       .93041     (Insuf)    .00000     1.0000     1.0000    
+a_hazirlik.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+a_hazirlik.Utilization                      .93041     (Insuf)    .00000     1.0000     1.0000    
+geridonusum_makinesi.NumberBusy             .99613     (Insuf)    .00000     1.0000     1.0000    
+geridonusum_makinesi.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+geridonusum_makinesi.Utilization            .99613     (Insuf)    .00000     1.0000     1.0000    
+b_hazirlik.NumberBusy                       .80108     (Insuf)    .00000     1.0000     .00000    
+b_hazirlik.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+b_hazirlik.Utilization                      .80108     (Insuf)    .00000     1.0000     .00000    
+muhur_makinesi.NumberBusy                   .90619     (Insuf)    .00000     1.0000     .00000    
+muhur_makinesi.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+muhur_makinesi.Utilization                  .90619     (Insuf)    .00000     1.0000     .00000    
+A hazirlik.Queue.NumberInQueue              3.1250     (Corr)     .00000     10.000     2.0000    
+B hazirlik.Queue.NumberInQueue              4.2687     (Insuf)    .00000     19.000     .00000    
+geri donusum.Queue.NumberInQueue            25.397     (Insuf)    .00000     38.000     35.000    
+muhurleme asamasi.Queue.NumberInQueue       1.5576     (Corr)     .00000     6.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+a_parcasi.NumberIn                          430.00    
+a_parcasi.NumberOut                         402.00    
+b_parcasi.NumberIn                          264.00    
+b_parcasi.NumberOut                         253.00    
+a_hazirlik.NumberSeized                     428.00    
+a_hazirlik.ScheduledUtilization             .93041    
+geridonusum_makinesi.NumberSeized           38.000    
+geridonusum_makinesi.ScheduledUtilization   .99613    
+b_hazirlik.NumberSeized                     264.00    
+b_hazirlik.ScheduledUtilization             .80108    
+muhur_makinesi.NumberSeized                 691.00    
+muhur_makinesi.ScheduledUtilization         .90619    
+System.NumberOut                            655.00    
+
+
+Simulation run time: 0.03 minutes.
+Simulation run complete.
