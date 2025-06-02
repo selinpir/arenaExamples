@@ -1,0 +1,66 @@
+
+                                      ARENA Simulation Results
+                                                selin
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 5/29/2025
+Analyst: selin                                                       Model revision date: 5/29/2025
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+hasta.VATime                                68.722     (Insuf)    4.5027     157.60         21    
+hasta.NVATime                               .00000     (Insuf)    .00000     .00000         21    
+hasta.WaitTime                              52.455     (Insuf)    .00000     182.44         21    
+hasta.TranTime                              .00000     (Insuf)    .00000     .00000         21    
+hasta.OtherTime                             .00000     (Insuf)    .00000     .00000         21    
+hasta.TotalTime                             121.17     (Insuf)    4.5027     295.36         21    
+kayitveTriyaj.Queue.WaitingTime             .17640     (Insuf)    .00000     3.8477         25    
+doktorlaikincigorusme.Queue.WaitingTime     3.2291     (Insuf)    .00000     27.550         15    
+doktorlaIlkGorusme.Queue.WaitingTime        5.2953     (Insuf)    .00000     40.420         25    
+testler.Queue.WaitingTime                   65.262     (Insuf)    .00000     181.04         16    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+hasta.WIP                                   5.2481     (Insuf)    .00000     8.0000     4.0000    
+kayitCalisani.NumberBusy                    .17303     (Insuf)    .00000     1.0000     .00000    
+kayitCalisani.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+kayitCalisani.Utilization                   .17303     (Insuf)    .00000     1.0000     .00000    
+doktorlar.NumberBusy                        1.5829     (Insuf)    .00000     3.0000     .00000    
+doktorlar.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+doktorlar.Utilization                       .52764     (Insuf)    .00000     1.0000     .00000    
+testMak.NumberBusy                          .91411     (Insuf)    .00000     1.0000     1.0000    
+testMak.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+testMak.Utilization                         .91411     (Insuf)    .00000     1.0000     1.0000    
+kayitveTriyaj.Queue.NumberInQueue           .00735     (Insuf)    .00000     1.0000     .00000    
+doktorlaikincigorusme.Queue.NumberInQueue   .08073     (Insuf)    .00000     1.0000     .00000    
+doktorlaIlkGorusme.Queue.NumberInQueue      .22064     (Insuf)    .00000     3.0000     .00000    
+testler.Queue.NumberInQueue                 2.2693     (Insuf)    .00000     6.0000     3.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+hasta.NumberIn                              25.000    
+hasta.NumberOut                             21.000    
+kayitCalisani.NumberSeized                  25.000    
+kayitCalisani.ScheduledUtilization          .17303    
+doktorlar.NumberSeized                      40.000    
+doktorlar.ScheduledUtilization              .52764    
+testMak.NumberSeized                        16.000    
+testMak.ScheduledUtilization                .91411    
+System.NumberOut                            21.000    
+
+
+Simulation run time: 0.03 minutes.
+Simulation run complete.

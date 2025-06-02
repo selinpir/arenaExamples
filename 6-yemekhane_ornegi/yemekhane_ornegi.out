@@ -1,0 +1,96 @@
+
+                                      ARENA Simulation Results
+                                                selin
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 5/20/2025
+Analyst: selin                                                       Model revision date: 5/20/2025
+
+Replication ended at time      : 90.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+sistemdeki_sureyi_bul                       10.315     (Insuf)    .17495     52.306        192    
+sandvic_yiyen.VATime                        1.2075     (Insuf)    .90816     1.5694         83    
+sandvic_yiyen.NVATime                       .00000     (Insuf)    .00000     .00000         83    
+sandvic_yiyen.WaitTime                      .75036     (Insuf)    .00000     3.1170         83    
+sandvic_yiyen.TranTime                      .00000     (Insuf)    .00000     .00000         83    
+sandvic_yiyen.OtherTime                     .00000     (Insuf)    .00000     .00000         83    
+sandvic_yiyen.TotalTime                     1.9579     (Insuf)    .90988     4.4144         83    
+sicak_yemek_yiyen.VATime                    1.7155     (Insuf)    1.2654     2.1229         70    
+sicak_yemek_yiyen.NVATime                   .00000     (Insuf)    .00000     .00000         70    
+sicak_yemek_yiyen.WaitTime                  24.022     (Insuf)    .12285     50.850         70    
+sicak_yemek_yiyen.TranTime                  .00000     (Insuf)    .00000     .00000         70    
+sicak_yemek_yiyen.OtherTime                 .00000     (Insuf)    .00000     .00000         70    
+sicak_yemek_yiyen.TotalTime                 25.737     (Insuf)    1.5174     52.306         70    
+ogrenci.VATime                                  --         --         --         --          0
+ogrenci.NVATime                                 --         --         --         --          0
+ogrenci.WaitTime                                --         --         --         --          0
+ogrenci.TranTime                                --         --         --         --          0
+ogrenci.OtherTime                               --         --         --         --          0
+ogrenci.TotalTime                               --         --         --         --          0
+icecek_icen.VATime                          .24580     (Insuf)    .16901     .32886         39    
+icecek_icen.NVATime                         .00000     (Insuf)    .00000     .00000         39    
+icecek_icen.WaitTime                        .17278     (Insuf)    .00000     1.0152         39    
+icecek_icen.TranTime                        .00000     (Insuf)    .00000     .00000         39    
+icecek_icen.OtherTime                       .00000     (Insuf)    .00000     .00000         39    
+icecek_icen.TotalTime                       .41858     (Insuf)    .17495     1.2626         39    
+sandvic.Queue.WaitingTime                   .69027     (Insuf)    .00000     3.1170         84    
+sicak_yemek.Queue.WaitingTime               24.346     (Insuf)    .00000     51.658         71    
+sicak_yemek_hesabi.Queue.WaitingTime        .06602     (Insuf)    .00000     .41978         70    
+icecek_icen_hesabi.Queue.WaitingTime        .17278     (Insuf)    .00000     1.0152         39    
+sandvic_yiyen_hesabi.Queue.WaitingTime      .07391     (Insuf)    .00000     .66041         83    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+sandvic_yiyen.WIP                           1.8639     (Insuf)    .00000     7.0000     6.0000    
+sicak_yemek_yiyen.WIP                       47.996     (Insuf)    .00000     96.000     96.000    
+ogrenci.WIP                                 .00000     (Insuf)    .00000     1.0000     .00000    
+icecek_icen.WIP                             .18138     (Insuf)    .00000     5.0000     .00000    
+kasiyer.NumberBusy                          .63781     (Insuf)    .00000     1.0000     .00000    
+kasiyer.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+kasiyer.Utilization                         .63781     (Insuf)    .00000     1.0000     .00000    
+sandvic_saticisi.NumberBusy                 .75530     (Insuf)    .00000     1.0000     1.0000    
+sandvic_saticisi.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+sandvic_saticisi.Utilization                .75530     (Insuf)    .00000     1.0000     1.0000    
+sicak_yemek_calisan.NumberBusy              1.0000     (Insuf)    .00000     1.0000     1.0000    
+sicak_yemek_calisan.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+sicak_yemek_calisan.Utilization             1.0000     (Insuf)    .00000     1.0000     1.0000    
+sandvic.Queue.NumberInQueue                 .67662     (Insuf)    .00000     5.0000     5.0000    
+sicak_yemek.Queue.NumberInQueue             46.599     (Insuf)    .00000     95.000     95.000    
+sicak_yemek_hesabi.Queue.NumberInQueue      .05135     (Insuf)    .00000     1.0000     .00000    
+icecek_icen_hesabi.Queue.NumberInQueue      .07487     (Insuf)    .00000     5.0000     .00000    
+sandvic_yiyen_hesabi.Queue.NumberInQueue    .06816     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+sandvic_yiyen.NumberIn                      89.000    
+sandvic_yiyen.NumberOut                     83.000    
+sicak_yemek_yiyen.NumberIn                  166.00    
+sicak_yemek_yiyen.NumberOut                 70.000    
+ogrenci.NumberIn                            294.00    
+ogrenci.NumberOut                           294.00    
+icecek_icen.NumberIn                        39.000    
+icecek_icen.NumberOut                       39.000    
+kasiyer.NumberSeized                        192.00    
+kasiyer.ScheduledUtilization                .63781    
+sandvic_saticisi.NumberSeized               84.000    
+sandvic_saticisi.ScheduledUtilization       .75530    
+sicak_yemek_calisan.NumberSeized            71.000    
+sicak_yemek_calisan.ScheduledUtilization    1.0000    
+System.NumberOut                            192.00    
+
+
+Simulation run time: 1.05 minutes.
+Simulation run complete.

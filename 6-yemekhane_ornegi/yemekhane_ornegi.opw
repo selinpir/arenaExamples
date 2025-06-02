@@ -1,0 +1,19 @@
+[RESOURCES]
+kasiyer
+sandvic_saticisi
+sicak_yemek_calisan
+[VARIABLES]
+sicak_yemek_hesabi.NumberIn
+cikis.NumberOut
+icecek_icen_hesabi.NumberIn
+icecek_icen_hesabi.NumberOut
+sandvic_yiyen_hesabi.NumberIn
+sandvic.NumberIn
+sandvic.NumberOut
+sicak_yemek_hesabi.NumberOut
+ogrencilerin gelisi.NumberOut
+sicak_yemek.NumberIn
+sicak_yemek.NumberOut
+icecek_tezgahi.NumberOut
+icecek_tezgahi.NumberIn
+sandvic_yiyen_hesabi.NumberOut

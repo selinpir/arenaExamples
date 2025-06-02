@@ -1,0 +1,71 @@
+
+                                      ARENA Simulation Results
+                                                selin
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 5/29/2025
+Analyst: selin                                                       Model revision date: 5/29/2025
+
+Replication ended at time      : 240.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+parca.VATime                                9.0161     (Insuf)    3.3208     17.723          4    
+parca.NVATime                               .00000     (Insuf)    .00000     .00000          4    
+parca.WaitTime                              .00000     (Insuf)    .00000     .00000          4    
+parca.TranTime                              .00000     (Insuf)    .00000     .00000          4    
+parca.OtherTime                             .00000     (Insuf)    .00000     .00000          4    
+parca.TotalTime                             9.0161     (Insuf)    3.3208     17.723          4    
+preslemeislemi.Queue.WaitingTime            .00000     (Insuf)    .00000     .00000          2    
+paketlemeIslemi.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          4    
+tiraslamaIslemi.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          4    
+dosemeislemi.Queue.WaitingTime              .00000     (Insuf)    .00000     .00000          2    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+parca.WIP                                   .15027     (Insuf)    .00000     1.0000     .00000    
+presleme.NumberBusy                         .08114     (Insuf)    .00000     1.0000     .00000    
+presleme.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+presleme.Utilization                        .08114     (Insuf)    .00000     1.0000     .00000    
+tiraslamacalisan.NumberBusy                 .01917     (Insuf)    .00000     1.0000     .00000    
+tiraslamacalisan.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+tiraslamacalisan.Utilization                .01917     (Insuf)    .00000     1.0000     .00000    
+doseme.NumberBusy                           .01376     (Insuf)    .00000     1.0000     .00000    
+doseme.NumberScheduled                      3.0000     (Insuf)    3.0000     3.0000     3.0000    
+doseme.Utilization                          .00459     (Insuf)    .00000     .33333     .00000    
+paketlemecalisan.NumberBusy                 .03620     (Insuf)    .00000     1.0000     .00000    
+paketlemecalisan.NumberScheduled            3.0000     (Insuf)    3.0000     3.0000     3.0000    
+paketlemecalisan.Utilization                .01207     (Insuf)    .00000     .33333     .00000    
+preslemeislemi.Queue.NumberInQueue          .00000     (Insuf)    .00000     .00000     .00000    
+paketlemeIslemi.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+tiraslamaIslemi.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+dosemeislemi.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+parca.NumberIn                              4.0000    
+parca.NumberOut                             4.0000    
+presleme.NumberSeized                       2.0000    
+presleme.ScheduledUtilization               .08114    
+tiraslamacalisan.NumberSeized               4.0000    
+tiraslamacalisan.ScheduledUtilization       .01917    
+doseme.NumberSeized                         2.0000    
+doseme.ScheduledUtilization                 .00459    
+paketlemecalisan.NumberSeized               4.0000    
+paketlemecalisan.ScheduledUtilization       .01207    
+System.NumberOut                            4.0000    
+
+
+Simulation run time: 0.00 minutes.
+Simulation run complete.

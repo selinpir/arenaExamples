@@ -1,0 +1,21 @@
+[RESOURCES]
+kayitCalisani
+doktorlar
+testMak
+[VARIABLES]
+taburcuolacakMi.NumberOut False
+doktorlaIlkGorusme.NumberIn
+testYapacakMi.NumberOut True
+yuruyerekGelen.NumberOut
+kayitveTriyaj.NumberOut
+doktorlaikincigorusme.NumberIn
+doktorlaikincigorusme.NumberOut
+taburcu.NumberOut
+testler.NumberOut
+kayitveTriyaj.NumberIn
+testYapacakMi.NumberOut False
+doktorlaIlkGorusme.NumberOut
+ambulanslaGelen.NumberOut
+taburcuolacakMi.NumberOut True
+testler.NumberIn
+yatanHasta.NumberOut

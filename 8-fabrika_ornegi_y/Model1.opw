@@ -1,0 +1,18 @@
+[RESOURCES]
+presleme
+tiraslamacalisan
+doseme
+paketlemecalisan
+[VARIABLES]
+nereyegidilsin.NumberOut False
+cikis.NumberOut
+dosemeislemi.NumberIn
+nereyegidilsin.NumberOut True
+tiraslamaIslemi.NumberIn
+tiraslamaIslemi.NumberOut
+paketlemeIslemi.NumberOut
+parcagelisi.NumberOut
+paketlemeIslemi.NumberIn
+dosemeislemi.NumberOut
+preslemeislemi.NumberIn
+preslemeislemi.NumberOut
